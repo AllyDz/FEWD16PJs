@@ -1,0 +1,56 @@
+body{
+	background-image: url('../images/background@2X.png');
+}
+
+form{
+	width: 65%;
+	border: 2px solid gray;
+	border-radius: 6px;
+	background-color: lightgray;
+	padding: 1em;
+}
+
+.table-one .table-two{
+	float: left;
+	display: inline-block;
+}
+
+.label-two{
+	border:1px solid gray;
+	border-radius: 4px;
+	background-color: white;
+	color:gray;
+	padding: .25em;
+	width:150px;
+}
+
+.first .last{
+	float: left;
+}
+/*div{
+	display: inline-block;
+}
+
+label{
+	padding-right: 17px;
+	width: 100%;
+	display: block;
+	clear:both;
+}*/
+
+.name .phone{
+	padding-right: 17px;
+	width: 100%;
+	display: block;
+	/*clear:both;*/
+	padding-bottom: 15px;
+}
+
+/*.area-code .three-dig .four-dig{
+	width:20px;
+}
+*/
+
+
+
+

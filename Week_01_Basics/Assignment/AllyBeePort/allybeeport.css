@@ -1,0 +1,121 @@
+
+
+head{
+
+}
+
+position {/*what is a better way to make the tag work?*/
+    position: relative;
+}
+
+
+image{
+	background-size: 1500px, 950px;
+	padding: 10px;
+	background-position: relative;
+	position:absolute;
+}
+
+position {
+	position: absolute;
+	margin-bottom: 20px;
+	margin-left: 20px
+}
+
+nav li {
+	 
+	 color: orange; 
+	 font-size: 11px;
+	 font-weight: bold;
+	 padding: 14px;
+	 text-transform: uppercase;
+	 display: inline;
+	 position:relative;
+	 top:50px;
+	 left:60px;
+
+
+}
+
+h1 {
+	z-index:100;
+	width:960;
+    color: gray;
+    margin-left: 20px;
+}
+
+h2{
+	width:960;
+    color: gray;
+    margin-left: 20px;
+}
+
+h3{
+	color:orange;
+	
+}
+
+p{
+	color: white;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom: 40px;
+	width: 960px;
+	font-size:20px;
+}
+
+body {
+	width:960;
+	padding: 10px;
+    background-color: lightgray;
+}
+
+footer{
+	float:center;
+	width:960px;
+	padding:10px;
+	color: lightgray;
+	background-color: white;
+}
+
+/* Portfolio spicific styles */
+
+
+/*.jumbotron {
+  background-image:url('https://goo.gl/IfRA8N');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+/*.jumbotron .container {
+  position: relative;
+  top:100px;
+}*/
+
+/*.jumbotron h1 {
+  color: #FFFF66;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}*/
+
+/*.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}*/
+
+portfolio thumbnail{
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+}
+
+portfolio h2{
+    color:#393c3d;
+    font-size:24px;
+}
+
+portfolio p{
+    font-size:15px;
+    margin-bottom:13px;
+}

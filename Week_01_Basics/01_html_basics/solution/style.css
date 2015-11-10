@@ -1,0 +1,18 @@
+body {
+	background-color: rgba(100,255,100,0);
+}
+
+p {
+	color: rgb(30,90,240);
+}
+
+h3 {
+	font-size: 32px;
+
+}
+
+
+
+ul {
+    list-style-type: square;
+}	

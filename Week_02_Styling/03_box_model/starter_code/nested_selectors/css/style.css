@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+element.style {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+p em{
+	font-size: 24px;
+	font-weight: bolder;
+	font-weight: 600;
+	color: lightblue;
+}
+
+.user-quote em{
+	font-weight: 700;
+	font-size: 14px;
+	color: green;
+=======
+=======
+>>>>>>> ga-students/master
+/* font-size of 24px of p em*/
+
+/* bolder blockquote emphasis */
+
+
+p em {
+    font-size: 24px;
+}
+
+
+.user-quote-emphasis em {
+    font-weight: 700;
+    font-size: 14px;
+    color: green;
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
+>>>>>>> ga-students/master
+}

@@ -1,0 +1,106 @@
+
+/****MOB DISPLAY*****/
+
+
+body{
+	background-color: blue;
+}
+
+.nav{
+	background-color: red;
+	border: 3px solid black;
+	height: 37px;
+}
+
+.nav-box li{
+	display: none;
+}
+
+.hamburger-list{
+	background-color: green;
+	border: 1px solid black;
+	height: 37px;
+	width: 20px;
+	padding: 2px;
+}
+
+.body-box{
+	background-color: pink;
+	border: 1px solid black;
+}
+
+.container{
+	background-color: yellow;
+	border: 3px solid black;
+}
+
+.foot-box{
+	background-color: lightblue;
+	border: 1px solid black;
+}
+/*float boxes into colamns*/
+.box{
+	float:left;
+}
+@media screen and (min-width: 768px){
+	/*insert responzive css here
+	ex: stack floating boxes
+	*/
+	.box{ 
+		float:none;
+}
+/****WEB DISPLAY*****/
+
+/****CLEAR*****/
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+/*********/
+
+*{
+	-moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+	/*width: 100%;*/
+}
+
+.nav{
+	border-style: 3px solid black;
+	height: 37px;
+	background-color: pink;
+}
+
+.nav-box li{
+	border-style: 2px solid black;
+	height: 37px;
+	background-color: green;
+	display: inline-block;
+	float: left;
+	width: 10%;
+	margin-left: 3%;
+}
+
+.hamburger-list{
+	display:none;
+}
+
+
+body{
+	background-color: yellow;
+}
+
+.body-box{
+	border-style: 3px solid black;
+	background-color: pink;
+	height: 37px;
+	float: left;
+}
+
+
+}

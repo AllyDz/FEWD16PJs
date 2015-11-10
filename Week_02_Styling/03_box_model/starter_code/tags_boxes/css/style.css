@@ -1,0 +1,93 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+body{
+	background-color: lightblue;
+}
+
+h1{
+	background-color: firebrick;
+	color:white;
+	padding: 5px;
+	border: 2px dotted black;
+}
+
+h2{
+	color:indigo;
+	background-color: lemonchiffon;
+	padding: 5px;
+
+}
+button{
+	background-color: yello;
+	padding:5px 2px;
+	
+}
+
+/* h1, p {
+	background-color:blue;
+	padding:5px;
+		*use this style if the styles are similar. ',' means these share same praperty.
+	*/
+
+p{
+	color: pink;
+	background-color: rgb(141, 166, 196);
+	padding: 5px;
+	border: 2px dotted black;
+}
+
+code{
+	background-color: white;
+	color: black;
+	padding:1px; 
+	border:1px solid green;
+}
+
+ol{ 
+	background-color: lightgray;
+	color: white;
+	padding: 5px;
+	border: 1px dotted black
+
+}
+
+li{
+	background-color: white;
+	color: orange;
+	padding: 5px;
+	border: 1px solid yellow;
+
+}
+
+
+=======
+=======
+>>>>>>> ga-students/master
+/*Give the h1 a red background, some padding, and a black border.
+Give every p a blue background, white text, some padding, and a black border.
+Give every code element a white background, black text, a little padding, and a thin border.*/
+
+h1, p {
+    padding: 5px;
+    border: 2px dotted black;
+}
+
+h1 {
+    background-color: red;
+}
+
+p {
+    color: white;
+    background-color: rgb(141,166,196);
+}
+
+code {
+    background-color: white;
+    color: black;
+    padding: 1px;
+    border: 1px solid green;
+}
+<<<<<<< HEAD
+>>>>>>> ga-students/master
+=======
+>>>>>>> ga-students/master
