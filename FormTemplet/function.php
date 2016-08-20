@@ -1,15 +1,18 @@
 <?php
-$html ='<!DOCTYPE html>
-		<html>
-		<head>
-		<title>Title of the document</title>
-		</head>
+	/** @version 07-09-2016
+		@Q Why is this @version not working?
+		@A
 
-		<body>
-		The content of the document......
-		</body>
+	**/
+	$error = '';
+	$success = '';
+	$page_url = fileName_hook_pull_requested_page_url('fileName from hooks page');
+	
+	echo ("Hello Bitch");
+	$c = array();
 
-		</html>'
-	}
-	echo ("Hello Bitch")
+	$c[] ='<head><title>registration</title></head>
+				<body><div class="registration-style-50-50 registration-style-100"
+					<h3>Registration</h3>
+	</body>';
 ?>
