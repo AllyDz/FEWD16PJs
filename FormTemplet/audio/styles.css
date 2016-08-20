@@ -17,7 +17,8 @@ header {
 body {
 	font-family:  Helvetica, Arial, sans-serif;
 	font-size: 62.5%;
-	background: #f5f5f5 url(../css_images/file.jpg) no-repeat top fixed;
+	/*background: #f5f5f5 url(../css_images/file.jpg) no-repeat top fixed;*/
+	background: url("Space-Art-Wallpaper-space-7076682-1440-900.jpg");
 	background-size: cover;
 }
 ul {
@@ -46,7 +47,7 @@ h4{
 }
 h5{
 	color: #ccac00;
-	font-size: 1.9em;
+	font-size: 3em;
 	margin: 0px;
 }
 h6{
@@ -55,7 +56,7 @@ h6{
 	margin: 0px;
 }
 p{
-	color: darkgray;
+	color: #fff;
 	font-size: 1.5em;
 }
 .kerning{
@@ -100,16 +101,15 @@ span {
 	text-align: left;
 	color: gray;
 }
-.first-square{
-	width: 100%;
-	background-color:#008080;
-	height: 750px;
+.first-square {
+    background-color: rgba(255, 255, 255, 0.35);
+    margin: 7% 10% 0 4%;
+    width: 90%;
 }
-.second-square{
-	width: 85%;
-	background-color:#f5f5dc;
-	height: 450px;
-	margin: 7%%;
+.second-square {
+    margin: 0 7%;
+    padding-bottom: 40px;
+    width: 85%;
 }
 /******************************
 		FOOTER STYLES
