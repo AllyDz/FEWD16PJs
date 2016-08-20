@@ -1,0 +1,136 @@
+/******************************
+		TEXT STYLES
+/*******************************/
+header {
+	font-size: 2.5em;
+	color: gray;
+}
+.logo {
+	border: none;
+	width: 10%;
+	height: 10%;
+
+}
+/******************************
+		GENERAL STYLES
+/*******************************/
+body {
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+	background: #f5f5f5 url(../css_images/file.jpg) no-repeat top fixed;
+	background-size: cover;
+}
+ul {
+
+}
+ul li, ol li {
+	list-style: none;
+	text-align: center;
+}
+/******************************
+		TEXT STYLES
+/*******************************/
+h1{
+	color: darkblue;
+	font-size: 3em;
+}
+h2{
+
+}
+h3 {
+	color: darkblue;
+	font-size: 2em;
+}
+h4{
+
+}
+h5{
+	color: #ccac00;
+	font-size: 1.9em;
+	margin: 0px;
+}
+h6{
+	color: #ccac00;
+	font-size: 7em;
+	margin: 0px;
+}
+p{
+	color: darkgray;
+	font-size: 1.5em;
+}
+.kerning{
+	padding: 0 15px;
+}
+.second-square > h6{
+	padding-top: 5%
+} 
+.second-square, .kerning{
+	text-align: center;
+}
+/******************************
+		FORM STYLES
+/*******************************/
+.half-width {
+	width:70%;
+	float: right;
+	display: inline-block;
+	border: none;
+	margin: 0 20%;
+	text-align: right;
+}
+.formdiv {
+		margin: 20px 0;
+
+}
+fieldset {
+
+}
+label {
+	margin: 0 15px;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+span {
+	display: inline-block;
+	border: 1px solid gray;
+	padding: 5px;
+	width: 60%;
+	border-radius: 2px;
+	font-size: 1.2em;
+	text-align: left;
+	color: gray;
+}
+.first-square{
+	width: 100%;
+	background-color:#008080;
+	height: 750px;
+}
+.second-square{
+	width: 85%;
+	background-color:#f5f5dc;
+	height: 450px;
+	margin: 7%%;
+}
+/******************************
+		FOOTER STYLES
+/*******************************/
+footer {
+	width: 100%;
+	background: #003329;
+	color: #fff;
+	font-size: 1.1em;
+}
+.thirds {
+	width: 33%;
+	display: inline-block;
+}
+.clear {
+	clear: both;
+}
+footer > ul {
+
+}
+footer > ul li {
+	list-style: none;
+	text-align: center;
+}
